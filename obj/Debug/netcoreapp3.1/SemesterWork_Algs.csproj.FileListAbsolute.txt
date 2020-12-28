@@ -1,0 +1,13 @@
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\bin\Debug\netcoreapp3.1\SemesterWork_Algs.exe
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\bin\Debug\netcoreapp3.1\SemesterWork_Algs.deps.json
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\bin\Debug\netcoreapp3.1\SemesterWork_Algs.runtimeconfig.json
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\bin\Debug\netcoreapp3.1\SemesterWork_Algs.runtimeconfig.dev.json
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\bin\Debug\netcoreapp3.1\SemesterWork_Algs.dll
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\bin\Debug\netcoreapp3.1\SemesterWork_Algs.pdb
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.csprojAssemblyReference.cache
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.AssemblyInfoInputs.cache
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.AssemblyInfo.cs
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.dll
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.pdb
+C:\Users\user\Documents\AlgsSemWork-master\AlgsSemWork-master\obj\Debug\netcoreapp3.1\SemesterWork_Algs.genruntimeconfig.cache

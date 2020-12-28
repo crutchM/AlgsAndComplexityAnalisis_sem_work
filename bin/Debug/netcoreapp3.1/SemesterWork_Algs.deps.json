@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SemesterWork_Algs/1.0.0": {
+        "runtime": {
+          "SemesterWork_Algs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SemesterWork_Algs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
