@@ -9,21 +9,21 @@ namespace SemesterWork_Algs
         private Dictionary<string, string[]> _textNodes = new Dictionary<string, string[]>();
         private graph _graph = new graph();
         
-        public graph CreateGraph()
+        public graph CreateGraph(string path)
         {
-            ReadFile();
+            ReadFile(path);
             FillGraph();
             return _graph;
         }
 
-        private void ReadFile()
+        private void ReadFile(string path)
         {
-            StreamReader sr = new StreamReader("input.txt");
+            StreamReader sr = new StreamReader(path);
             string line = "";
             while ((line = sr.ReadLine()) != null)
             {
                 var str = line.Split(":");
-                _textNodes.Add(str[0], str[1].Split(','));              
+                _textNodes.Add(str[0], str[1].Trim().Split(','));              
             }
         }
 

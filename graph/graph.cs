@@ -21,15 +21,11 @@ namespace SemesterWork_Algs
                     yield return e;
             }
         }
-
-        public void Connect(int index1, int index2)
-        {
-            if (!AllNodes.Contains(nodes[index1]) || !AllNodes.Contains(nodes[index2])) throw new ArgumentException();
-            nodes[index1].Connect(nodes[index2]);
-        }
+        
 
         private Node FindNode(string node)
             => nodes.FirstOrDefault(x => x.City == node);
+        
         public void Connect(string node1, string node2)
         {
             FindNode(node1).Edges.Add(new Edge(FindNode(node1), FindNode(node2)));
@@ -42,9 +38,15 @@ namespace SemesterWork_Algs
                 nodes.Add(node2);
             else
             {
-                node1.Connect(node2);
                 nodes.Add(node2); 
+                Connect(node1.City,node2.City);
             }
+        }
+
+        public void AddNode(Node node)
+        {
+            if (nodes.Contains(node)) return;
+            nodes.Add(node);
         }
 
         public void RemoveEdge(Edge edge)

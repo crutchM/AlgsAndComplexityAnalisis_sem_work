@@ -15,7 +15,7 @@ namespace SemesterWork_Algs
             _graph = graph;
         }
 
-        public List<Node> perform()
+        public List<Node> Start()
         {
             List<Node> currentRoute = new List<Node>();
             currentRoute.Add(_graph[0]);
@@ -28,9 +28,8 @@ namespace SemesterWork_Algs
         
         private List<Node> FindBestRoute(ref List<Node> bestRoute, List<Node> currentRoute)
         {
-            var prev = Copy(currentRoute);    //TODO: копирнуть
-            if(currentRoute[0].City != "Челябинск")
-                return null;
+            var prev = Copy(currentRoute);    
+            if(currentRoute[0].City != "Челябинск") return null;
             if (currentRoute.Distinct().Count() == _graph.AllNodes.Count())
             {
                 if (currentRoute[^1].ConnectedNodes.Contains(currentRoute[0]))
@@ -43,8 +42,6 @@ namespace SemesterWork_Algs
             }
             var lastNode = currentRoute.Last();
             var neighbours = lastNode.IncidentNodes().Where(x => !currentRoute.Contains(x));
-            // if (neighbours.Count() == 0)
-            //     neighbours = lastNode.IncidentNodes();
             foreach (var e in neighbours)
             {
                 currentRoute.Add(e);
@@ -62,7 +59,6 @@ namespace SemesterWork_Algs
             {
                 newList.Add(e);
             }
-
             return newList;
         }
             

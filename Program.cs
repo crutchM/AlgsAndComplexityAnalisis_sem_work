@@ -9,9 +9,10 @@ namespace SemesterWork_Algs
         static void Main(string[] args)
         {
             GraphCreator gc = new GraphCreator();
-            var graph = gc.CreateGraph();
+            Console.WriteLine("укажите название файла");
+            var graph = gc.CreateGraph(Console.ReadLine());
             Performer performer = new Performer(graph);
-            OutputResult(performer.perform());
+            OutputResult(performer.Start());
             Console.ReadKey();
         }
         
